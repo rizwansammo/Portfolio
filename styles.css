@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #6a0dad; /* Updated background color to purple */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .terminal {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 800px; /* Adjusted width for a landscape-like terminal */
+    max-width: 90%; /* To ensure responsiveness on smaller screens */
+    max-height: 500px; /* Maximum height for the terminal */
+    background-color: #000;
+  }
+  
+  .output {
+    min-height: 200px;
+    padding: 10px;
+    background-color: #000;
+    overflow-y: auto;
+  }
+  
+  .input {
+    width: calc(100% - 4px);
+    padding: 8px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
